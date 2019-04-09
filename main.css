@@ -7,12 +7,16 @@ span {
   cursor: default;
 }
 
- a{
+ .uMenu ul li a{
     cursor:pointer;
     color: #000;
     opacity: 0.75;
     text-decoration: none;
-    font-size: 13px; 
+}
+
+a{
+      text-decoration: none;
+      opacity: 0.75;
 }
 
 .gLogo{
@@ -195,4 +199,67 @@ padding-left:43px;
 
 .active{
   border-bottom:3px solid blue;
+}
+
+.resultNum {
+  margin-left:11em;
+  color: #777;
+}
+
+.searchResultsMain{
+  display:flex;
+  padding-left:150px;
+}
+
+.searchResultsLeft{
+  width:30%;
+}
+
+.searchResultsRight{
+  width:50%;
+}
+
+.SearchResultsHead {
+  display:flex;
+  padding-left:25px;
+}
+
+.SearchResultsHeadLeft{
+  width:50%;
+}
+
+.SearchResultsHeadRight{
+  width:50%;
+}
+
+.SearchResultsHeadA{
+  text-decoration: none;
+  font-size:18px;
+  cursor: pointer;
+  color: #1a0dab;
+  line-height: 1.33;
+  text-align: left;
+  font-weight:normal;
+}
+
+.SearchResultsHeadP{
+  color: #545454;
+  font-size: small;
+  text-align: left;
+  line-height: 1.54;
+  width: 220px;
+}
+
+.searchResultsMainP{
+  font-size:14px;
+  line-height:1.43;
+  color: #006621;
+  font-style: normal;
+}
+
+.SearchResultsP{
+  color: #545454;
+  font-size: small;
+  text-align: left;
+  line-height: 1.54;
 }
