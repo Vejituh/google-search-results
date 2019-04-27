@@ -263,3 +263,31 @@ padding-left:43px;
   text-align: left;
   line-height: 1.54;
 }
+
+.searchresultsquestions {
+  border: 1px solid #dfe1e5;
+  font-size: medium;
+  font-weight: normal;
+  margin-top:30px;
+  margin-bottom: 26px;
+  line-height: 1.2;
+  text-align: left;
+  box-shadow: none;
+  border-radius: 8px;
+}
+
+.searchresultsquestionsheader{
+  color: #808080;
+  font-size: 18px;
+  padding: 9px 16px;
+  line-height: 1.33;
+  font-weight: normal;
+  margin: 0;
+}
+.searchresultsquestionp{
+  font-size: 16px;
+  padding: 9px 16px;
+  line-height: 1.33;
+  font-weight: normal;
+  margin: 0;
+}
