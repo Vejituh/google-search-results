@@ -214,10 +214,11 @@ padding-left:43px;
 
 .searchResultsLeft{
   width:30%;
+  padding-right:30px;
 }
 
 .searchResultsRight{
-  width:50%;
+  width:70%;
 }
 
 .SearchResultsHead {
@@ -312,4 +313,35 @@ padding-left:43px;
    font-size: small;
    margin: 0;
    padding: 0;
+}
+.rightheader{
+  align-items: center;
+display: flex;
+  padding:20px 5px;
+}
+
+.rightheader p{
+  padding:0;
+  margin:0;
+  display:inline-block;
+}
+
+.resultborder{
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+  border-radius: 8px;
+  padding-left:30px;
+  
+}
+
+.rightsideurl{
+  padding-left: 40px;
+}
+
+.socialn{
+  display:flex;
+}
+.socialn div{
+  margin: 20px;
+  text-align:center;
 }
