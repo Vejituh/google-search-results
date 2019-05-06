@@ -345,3 +345,58 @@ display: flex;
   margin: 20px;
   text-align:center;
 }
+
+@media (max-width:1800px){
+  .searchResultsRight{
+    width:30%;
+  }
+  .searchResultsLeft{
+    width:70%;
+  }
+}
+
+@media (max-width:1320px){
+  .searchResultsMain{
+    display:flex-wrap;
+  flex-direction:column;
+      padding-right:150px;
+  }
+  .searchResultsLeft{
+    order:2;
+    width:100%;
+  }
+  .searchResultsRight{
+  justify-content:center;
+  }
+}
+
+@media (max-width:960px){
+    .searchResultsMain{
+padding:10px;
+  }
+  .socialn div{
+    margin:5px;
+  }
+  .socialn img {
+    width:20px;
+    height:20px;
+  }
+    input[type='text']{
+    width:100%;
+  }
+  
+  .uMenu ul li{
+  padding: 5px;
+}
+  .uMenuRight {
+    margin-left:10px;
+  }
+  
+  .main{
+    margin-left:10px;
+  }
+  
+  .gLogo{
+    padding:15px 2px;
+  }
+}
